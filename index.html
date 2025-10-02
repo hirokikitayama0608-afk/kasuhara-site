@@ -3,304 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>東京都カスハラ対策奨励金 | 申し込み受付中 | 先着順40万円</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>東京都カスハラ対策奨励金（NT） | 申し込み受付中 | 先着順40万円</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        }
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         .card-shadow {
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-        .text-highlight {
-            background: linear-gradient(120deg, #f6d55c 0%, #3caba8 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
         .btn-primary {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            transition: transform 0.2s ease;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
         }
         .btn-primary:hover {
             transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
         }
-        .pulse-animation {
-            animation: pulse 2s infinite;
+        .highlight-box {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+        }
+        .feature-card {
+            border-left: 4px solid #667eea;
+            background: #f8fafc;
+        }
+        @media (max-width: 768px) {
+            .mobile-text {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
-<body class="bg-gray-50 font-sans">
+<body class="bg-gray-50">
     <!-- Header -->
     <header class="gradient-bg text-white py-6">
-        <div class="container mx-auto px-4">
-            <div class="text-center">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">
-                    <i class="fas fa-shield-alt mr-3"></i>
-                    東京都カスハラ対策奨励金
-                </h1>
-                <div class="bg-red-500 text-white px-6 py-3 rounded-full inline-block font-bold text-xl pulse-animation">
-                    <i class="fas fa-exclamation-triangle mr-2"></i>
-                    先着順 × 40万円奨励金
-                </div>
-            </div>
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">東京都カスハラ対策奨励金（NT）</h1>
+            <p class="text-xl md:text-2xl font-semibold mb-2">カスタマーハラスメント対策推進奨励金</p>
+            <p class="text-lg md:text-xl">カスハラ対策費用に対して最大40万円の奨励金が支給される制度が始まります</p>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8">
-        <!-- Introduction -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <div class="text-center mb-6">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">
-                    東京都が2025年9月に開始予定の<br>
-                    「カスタマーハラスメント対策推進奨励金」
-                </h2>
-                <p class="text-lg text-gray-600 mb-6">
-                    カスハラ対策費用に対して最大40万円の奨励金が支給される制度が始まります
-                </p>
-                <a href="https://www.tokyo-cusharaboushi.jp/" target="_blank" class="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                    <i class="fas fa-external-link-alt mr-2"></i>
-                    東京都公式サイト「カスタマーハラスメント防止対策」
-                </a>
-            </div>
-        </section>
-
-        <!-- Key Points -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-                <i class="fas fa-star text-yellow-500 mr-2"></i>
-                奨励金の仕組み
-            </h3>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-                    <h4 class="font-bold text-green-800 mb-2">
-                        <i class="fas fa-yen-sign mr-2"></i>
-                        定額支給システム
-                    </h4>
-                    <p class="text-green-700">
-                        カスハラ対策費用はいくらでもOK、40万円が『定額』で支給されます
-                    </p>
-                </div>
-                <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
-                    <h4 class="font-bold text-red-800 mb-2">
-                        <i class="fas fa-clock mr-2"></i>
-                        早い者勝ち方式
-                    </h4>
-                    <p class="text-red-700">
-                        先着順で締切となる可能性があります！早めの準備が重要です
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Video Section -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-                <i class="fas fa-play-circle mr-2"></i>
-                カスハラ対策奨励金の詳しい説明動画
-            </h3>
-            <p class="text-center text-gray-600 mb-6">
-                以下の動画で奨励金の概要と申請のポイントを詳しくご説明しています
-            </p>
-            <div class="flex justify-center">
-                <div class="w-full max-w-3xl">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UD9jIMhjkZM?si=nTma0jla1S85zfuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full rounded-lg"></iframe>
-                </div>
-            </div>
-            <div class="mt-4 text-sm text-gray-500 text-center">
-                <p>※前回分の案内動画でございます。</p>
-                <p>└現在費用は20万円になりましたが、ツール金額がコミコミになりました。</p>
-            </div>
-        </section>
-
-        <!-- Overview Table -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-                <i class="fas fa-info-circle mr-2"></i>
-                概要POINT
-            </h3>
-            <div class="overflow-x-auto">
-                <table class="w-full table-auto">
-                    <tbody>
-                        <tr class="border-b">
-                            <td class="font-bold py-4 px-4 bg-gray-50">支給金額</td>
-                            <td class="py-4 px-4">一律40万円（返還不要・奨励金）</td>
-                        </tr>
-                        <tr class="border-b">
-                            <td class="font-bold py-4 px-4 bg-gray-50">成功報酬-サポート料金</td>
-                            <td class="py-4 px-4">20万円（税抜）（マニュアル策定＋申請サポート＋申請用紙作成＋nottaツール料金込）</td>
-                        </tr>
-                        <tr class="border-b">
-                            <td class="font-bold py-4 px-4 bg-gray-50">申請受付時期</td>
-                            <td class="py-4 px-4 text-red-600 font-bold">9月中の見込み／先着順で締切の可能性あり！</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <!-- Target Companies -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-                <i class="fas fa-building mr-2"></i>
-                対象者
-            </h3>
-            <div class="bg-blue-50 p-6 rounded-lg">
-                <h4 class="font-bold text-blue-800 mb-4">東京都内の中小企業（以下の要件を満たす企業）</h4>
-                <div class="grid md:grid-cols-2 gap-4 text-sm">
-                    <ul class="space-y-2">
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">1</span>
-                            <span>常時雇用する従業員の数が300人以下の企業であること</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">2</span>
-                            <span>都内で事業を営む中小企業等であること</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">3</span>
-                            <span>東京都政策連携団体、事業協力団体又は東京都が設立した法人でないこと</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">4</span>
-                            <span>中小企業等の場合は都内に本店登記、または支店の事業所があること</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">5</span>
-                            <span>都内の事業所で継続的に1年以上事業を行っていること</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">6</span>
-                            <span>都内の事業所で実質的に事業を行っていること</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">7</span>
-                            <span>都税を12ヶ月以上支払っていること・都税の未納がないこと</span>
-                        </li>
-                    </ul>
-                    <ul class="space-y-2">
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">8</span>
-                            <span>過去5年間に重大な法令違反等がないこと</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">9</span>
-                            <span>民事再生法、会社更生法、破産法に基づく申立・手続中、又は私的整理手続中など、事業の継続性について不確実な状況が存在していないこと</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">10</span>
-                            <span>労働関係法令について遵守していること</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">11</span>
-                            <span>性風俗関連特殊営業、当該営業に係る「接客業務受託営業」及びこれらに類する事業を行っていないこと</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">12</span>
-                            <span>暴力団員等、暴力団および法人その他の団体の代表者、役員または使用人その他の従業員若しくは構成員が暴力団員等に該当する者でないこと</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2 mt-0.5">13</span>
-                            <span>すでにカスハラ対策奨励金を受給（受給予定も含む）していないこと<br>
-                            ※同一代表者が複数法人を兼ねている場合でも、申請できるのは1法人分のみです。（代表者1人当たり1回）</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Measures -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-                <i class="fas fa-list-check mr-2"></i>
-                対策内容
-            </h3>
-            <div class="space-y-4">
-                <div class="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500">
-                    <h4 class="font-bold text-yellow-800 mb-2">1. カスハラ防止対策マニュアルの作成</h4>
-                    <p class="text-yellow-700">従業員向けの対応マニュアルを策定します</p>
-                </div>
-                <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-                    <h4 class="font-bold text-green-800 mb-2">2. 以下①〜③いずれかの取組実施</h4>
-                    <ul class="text-green-700 space-y-2">
-                        <li>① 録音・録画環境の整備</li>
-                        <li>② AI活用システム等の導入</li>
-                        <li>③ 外部人材の活用</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Detailed Information -->
-        <section class="bg-white rounded-lg card-shadow p-8 mb-8">
-            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-                <i class="fas fa-file-alt mr-2"></i>
-                詳しい申請内容や、書類はこちらから
-            </h3>
-            <div class="text-center">
-                <a href="https://www.notion.so/_-253e52833fcd800cacbdd7519564dbcf" target="_blank" class="inline-flex items-center bg-purple-600 text-white px-8 py-4 rounded-lg hover:bg-purple-700 transition-colors text-lg font-bold">
-                    <i class="fas fa-external-link-alt mr-3"></i>
-                    詳細資料を確認する
-                </a>
-            </div>
-        </section>
-
-        <!-- Call to Action -->
-        <section class="bg-gradient-to-r from-red-500 to-pink-600 rounded-lg text-white p-8 text-center mb-8">
-            <h3 class="text-3xl font-bold mb-4">
-                <i class="fas fa-exclamation-triangle mr-2"></i>
-                制度が発表されてから動くでは遅い！
-            </h3>
-            <p class="text-xl mb-6">今回は『申し込み』の受付です</p>
-            <div class="bg-white bg-opacity-20 p-6 rounded-lg mb-6">
-                <p class="text-lg font-bold">早期行動が成功の鍵！準備を今すぐ始めましょう</p>
-            </div>
-            <a href="https://x.gd/h7nyO" target="_blank" class="btn-primary text-white px-12 py-4 rounded-full text-xl font-bold inline-flex items-center hover:shadow-lg">
-                <i class="fas fa-rocket mr-3"></i>
-                今すぐ、申し込みはこちら
-            </a>
-            <div class="mt-4 text-sm bg-white bg-opacity-20 p-4 rounded-lg">
-                <p>株式会社KIZASHIよりご案内をさせていただき、正式な入力フォームと案内を2営業日以内にお送りいたします。</p>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <h4 class="text-lg font-bold mb-4">運営会社情報</h4>
-                    <ul class="space-y-2">
-                        <li><strong>運営会社：</strong>株式会社イニシャルステート</li>
-                        <li><strong>申請支援会社：</strong>株式会社KIZASHI</li>
-                        <li><strong>専用サイトURL：</strong><a href="https://www.notion.so/_-253e52833fcd800cacbdd7519564dbcf" class="text-blue-400 hover:underline">https://www.notion.so/_-253e52833fcd800cacbdd7519564dbcf</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold mb-4">重要事項</h4>
-                    <p class="text-sm text-gray-300">
-                        本サイトは東京都公式サイトではございません。申請サポートサービスをご提供する民間企業のサイトです。
-                        正式な制度詳細は東京都の公式発表をご確認ください。
-                    </p>
-                </div>
-            </div>
-            <div class="text-center mt-8 pt-8 border-t border-gray-600">
-                <p class="text-sm text-gray-400">
-                    &copy; 2025 東京都カスハラ対策奨励金申請サポート. All rights reserved.
-                </p>
-            </div>
+    <!-- 公募見込み情報 -->
+    <div class="highlight-box py-4">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-xl md:text-2xl font-bold">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                次回公募見込み：12月〜1月くらい目処
+            </h2>
         </div>
-    </footer>
-</body>
-</html>
-    <script id="html_badge_script1">
-        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
-            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDuShzfVQ0gHdg1JO1bdUzcI%2BLNA%2F1LrKDXMYkTOGxXbr3IIjxdBwCHouMKoL94nk5DrrpD9dHjQN5%2FaTyib1%2F7jxHrt5FyIcty2cxVOZnF1eLpyPdxMW5gULJbS9RMilSATLX8%2FOg1LQzXKRXFjNa2Lumrgqmk2Qoor725CEb7x3fu8%2F5eYtRrk%2BRDCZppwy3oMRY0i51XvgTojWHhjvyw1zqI34mPHQJEzuRDI0YjERglxrRr0%2Fi1pP9Sa9bX8AW%2FkErHlduR%2BAcgjmnYhMb5DjP3NL63MmAM8LxshnYu6JhbF18VHvI3%2FEzjLfelepCg3svNcpD6Trh6qxj4YZnriwds1cVU9EyB3cN%2FxySZD1Z9goz4%2FVyGwXsctdkrhx0kdL%2FUfkszhrmn3KqY1vCJuu6yJszXD556DDsKB0HXuqn60zeZK7X3rW1Bgm3ueFLsg92IP6Poy3LmFYfdJs%2BI841Eyc0Fm%2F0nZdRNL9RtHuUcttmYNQR6YGSgDelJzxDA%3D%3D";
-        window.__genspark_locale = "ja-JP";
-        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDuShzfVQ0gHdg1JO1bdUzcI+LNA/1LrKDXMYkTOGxXbr3IIjxdBwCHouMKoL94nk5DrrpD9dHjQN5/aTyib1/7jxHrt5FyIcty2cxVOZnF1eLpyPdxMW5gULJbS9RMilSATLX8/Og1LQzXKRXFjNa2Lumrgqmk2Qoor725CEb7x3fu8/5eYtRrk+RDCZppwy3oMRY0i51XvgTojWHhjvyw1zqI34mPHQJEzuRDI0YjERglxrRr0/i1pP9Sa9bX8AW/kErHlduR+AcgjmnYhMb5DjP3NL63MmAM8LxshnYu6JhbF18VHvI3/EzjLfelepCg3svNcpD6Trh6qxj4YZnriwds1cVU9EyB3cN/xySZD1Z9goz4/VyGwXsctdkrhx0kdL/Ufkszhrmn3KqY1vCJuu6yJszXD556DDsKB0HXuqn60zeZK7X3rW1Bgm3ueFLsg92IP6Poy3LmFYfdJs+I841Eyc0Fm/0nZdRNL9RtHuUcttmYNQR6YGSgDelJzxDA==";
-    </script>
-    
-    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
-    
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 max-w-6xl">
+        
+        <!-- 東京都公式サイトリンク -->
+        <section class="mb-8">
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                <div
